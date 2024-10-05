@@ -31,9 +31,6 @@
     transition: 0.3s ease-in-out;
   }
   .section-hero{
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     height: 100vh;
     width: 100vw;
   }
@@ -151,9 +148,6 @@
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: local;
   }
   .section-about p, h1{
     color: azure;
@@ -172,9 +166,6 @@
   .section-edu{
     height: 100vh;
     width: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
   }
   
   

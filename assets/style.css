@@ -39,9 +39,6 @@ body {
 }
 
 .section-hero {
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
   height: 100vh;
   width: 100vw;
 }
@@ -157,9 +154,6 @@ div:after {
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: local;
 }
 
 .section-about p, h1 {
@@ -181,7 +175,4 @@ div:after {
 .section-edu {
   height: 100vh;
   width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }/*# sourceMappingURL=style.css.map */
