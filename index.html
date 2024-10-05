@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--STYLES-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-4/assets/css/timeline-4.css">
+</head>
+
+<body>
+  <!--NAVIGATION BAR-->
+  <div id="hero"></div>
+  <nav class="navbar navbar-expand-lg sticky-top"  >
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item"></li>
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+<!--/NAVIGATION BAR-->
+
+  <!--HERO-->
+<section class="section-hero py-5" style="background-image: url('assets/images/hero-bg.png');">
+<div class="px-4 pt-5 my-5 text-center" data-aos="fade-down" data-aos-delay="300" data-aos-duration="900">
+  <h1 class="display-5 fw-light lh-1 mb-3 glitch" style="font-size: 70px;">
+    Hello, I’m Paolo <br>
+    Learn more about me!</h1>
+</div>
+  <div class="col-lg-6 mx-auto text-center" data-aos="fade-down" data-aos-delay="300" data-aos-duration="900">
+    <p style="font-size: 25px; font-weight: lighter;">I’m a website developer, my main goal is to provide quality designs and friendly user websites. I enjoy building websites with good designs.</p>
+  </div>
+  </div>
+  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center py-5">
+    <svg class="arrows">
+      <path class="a1" d="M0 0 L30 32 L60 0"></path>
+      <path class="a2" d="M0 20 L30 52 L60 20"></path>
+      <path class="a3" d="M0 40 L30 72 L60 40"></path>
+    </svg>
+  </div>
+</section>
+<!--/HERO-->
+
+<!--ABOUT-->
+<section class="section-about" id="about" style="background-image: url('/assets/images/about-bg.png');">
+  <div class="container py-5">
+    <div class="row py-5 gx-5">
+      <div class="col-lg-6 px-5 gx-5 py-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="900">
+        <div class="col col-sm-8 col-lg-12 justify-content-center align-items-center mx-auto">
+          <img src="assets/images/about-img.jpg" class="d-block mx-lg-auto img-fluid image rounded" width="550" height="620" loading="lazy">
+        </div>
+      </div>
+      <div class="col-lg-6 text-center text-md-start py-4" data-aos="fade-right" data-aos-delay="300" data-aos-duration="900">  
+        <h1 class="display-5 fw-bold lh-1 mb-3">About me</h1>
+        <p style="text-align: justify;">I’m a website developer, my main goal is to provide quality designs and friendly user websites. I am devoted to the idea of lifelong learning and have a strong love for programming websites. The intriguing fusion of imagination, reason, technology, and an unending source of new information fuels my  enthusiasm for web development.</p>
+        <hr>
+      <h1 class="display-5 fw-bold lh-1 mb-3 py-2">Skills</h1>
+
+      <div class="container text-center py-1">
+        <div class="row row-cols-2">
+            <div class="col-sm-6 col-lg-4 mb-4 cards">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text d-flex justify-content-center align-items-center mx-auto">
+                  <img src="assets/images/html.png" class="d-block mx-lg-auto img-fluid" width="100" height="100" loading="lazy"></p>
+              </div>
+            </div>
+          </div>
+            <div class="col-sm-6 col-lg-4 mb-4 cards">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+                <p class="card-text d-flex justify-content-center align-items-center mx-auto">
+                  <img src="assets/images/css.png" class="d-block mx-lg-auto img-fluid" width="110" height="100 " loading="lazy"></p>
+              </div>
+            </div>
+          </div>
+            <div class="col-sm-6 col-lg-4 mb-4 cards">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Bootstrap</h5>
+                  <p class="card-text d-flex justify-content-center align-items-center mx-auto">
+                    <img src="assets/images/bootstrap.png"  class="d-block mx-lg-auto img-fluid" width="143" height="100" loading="lazy"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4 cards">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title">JavaScript</h5>
+                  <p class="card-text d-flex justify-content-center align-items-center mx-auto">
+                    <img src="assets/images/js.png"  class="d-block mx-lg-auto img-fluid" width="100" height="100" loading="lazy"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4 cards">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">C#</h5>
+                <p class="card-text d-flex justify-content-center align-items-center mx-auto">
+                  <img src="assets/images/csharp.png" class="d-block mx-lg-auto img-fluid" width="105" height="100" loading="lazy"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4 cards">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">SQL</h5>
+              <p class="card-text d-flex justify-content-center align-items-center mx-auto">
+                <img src="assets/images/sql.png" class="d-block mx-lg-auto img-fluid" width="105" height="100" loading="lazy"></p>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ABOUT-->
+
+<!--EDUCATION-->
+  <section class="bsb-timeline-4 bg-light py-3 py-md-5 py-xl-8 section-edu" id="education"  style="background-image: url('assets/images/edu-bg.png');">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center text-md-center py-4" data-aos="flip-up"data-aos-delay="500" data-aos-duration="900">  
+          <h1 class="display-5 fw-bold lh-1 mb-3">EDUCATION</h1>
+          </div>
+        <div class="col-10 col-md-12 col-xl-10 col-xxl-9">
+          <ul class="timeline">
+            <li class="timeline-item left">
+              <div class="timeline-body">
+                <div class="timeline-meta">
+                  <div class="d-inline-flex flex-column px-2 py-1 text-success-emphasis rounded-2 text-md-end" style="background-color: #008aa1;" data-aos="fade-left" data-aos-delay="500" data-aos-duration="900">
+                    <span>2022-2024</span>
+                  </div>
+                </div>
+                <div class="timeline-content timeline-indicator" data-aos="fade-right" data-aos-delay="500" data-aos-duration="900">
+                  <div class="card border-0 shadow">
+                    <div class="card-body p-xl-4">
+                      <h2 class="card-title mb-2">Senior High School</h2>
+                      <h6 class="card-subtitle text-secondary mb-3">Student</h6>
+                      <p class="card-text m-0">Studied the Technical Vocational Track in Information Communication Technology at STI College San Pablo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-item right">
+              <div class="timeline-body">
+                <div class="timeline-meta">
+                  <div class="d-inline-flex flex-column px-2 py-1 text-success-emphasis rounded-2 text-md-end" style="background-color: #008aa1;" data-aos="fade-right" data-aos-delay="500" data-aos-duration="900">
+                    <span>2024-2025</span>
+                  </div>
+                </div>
+                <div class="timeline-content timeline-indicator" data-aos="fade-left" data-aos-delay="500" data-aos-duration="900">
+                  <div class="card border-0 shadow">
+                    <div class="card-body p-xl-4">
+                      <h2 class="card-title mb-2">First Year College</h2>
+                      <h6 class="card-subtitle text-secondary mb-3">Student</h6>
+                      <p class="card-text m-0">Studies Bachelor of Science in Information Technology at Laguna State Polytechnic University</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--/EDUCATION-->
+
+
+</body>
+<!--SCRIPTS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+<script> window.onload = function() {
+  var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
+  shadowRoot.querySelector('#logo').remove();
+}</script>
+<!--/SCRIPTS-->
+
+</html>
