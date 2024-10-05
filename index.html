@@ -11,6 +11,7 @@
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-4/assets/css/timeline-4.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -54,25 +55,28 @@
     <p style="font-size: 25px; font-weight: lighter;">I’m a website developer, my main goal is to provide quality designs and friendly user websites. I enjoy building websites with good designs.</p>
   </div>
   </div>
-  <div class="d-grid gap-2 mx-auto text-center d-sm-flex justify-content-sm-center py-5">
-    <button type="button" class="btn px-4 me-sm-3 py-5"><div class="indicator">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-       <span></span>
-    </div></button>
+  <div class="col-12 text-center py-5" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900">
+    <a href="#about">
+      <button type="button" class="btn px-4 me-sm-3 py-5"><div class="indicator">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+         <span></span>
+      </div></button>
+    </a>
+   
   </div>
 </section>
 <!--/HERO-->
 
   <!--ABOUT-->
-  <section class="section-about" id="about" style="background-image: url('/assets/images/about-bg.jpg');">
-    <div class="container py-3 mb-5">
-      <div class="row py-5">
-        <div class="col-lg-6 px-5 gx-5 py-5">
+  <section class="section-about" id="about" style="background-image: url('assets/images/about-bg.jpg');">
+    <div class="container py-5">
+      <div class="row py-5 px-3">
+        <div class="col-12 col-md-6 px-5 gx-5 py-5">
           <div class="col col-sm-8 col-lg-12 justify-content-center align-items-center" data-aos="fade-down" data-aos-delay="300" data-aos-duration="900">
-            <img src="assets/images/about-img.jpg" class="d-block mx-lg-auto img-fluid image rounded" width="550" height="620" loading="lazy">
+            <img src="assets/images/about-img.jpg" class="d-block mx-lg-auto img-fluid image rounded" width="100%" height="auto" loading="lazy">
           </div>    
         </div>
         <div class="col-lg-6 text-center text-md-start" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900">  
@@ -80,8 +84,6 @@
           <p style="text-align: justify;">I’m a website developer, my main goal is to provide quality designs and friendly user websites. I am devoted to the idea of lifelong learning and have a strong love for programming websites. The intriguing fusion of imagination, reason, technology, and an unending source of new information fuels my  enthusiasm for web development.</p>
           <hr>
         <h1 class="display-5 fw-bold lh-1 mb-3 py-2">Skills</h1>
-
-        <div class="container text-center">
           <div class="row row-cols-2">
               <div class="col-sm-6 col-lg-4 mb-4 cards">
               <div class="card text-center">
@@ -146,13 +148,13 @@
   <!--/ABOUT-->
 
 <!--EDUCATION-->
-<section class="bsb-timeline-4 bg-light py-3 py-md-5 section-edu" id="education"  style="background-image: url('assets/images/edu-bg.jpg');">
+<section class="section-edu bsb-timeline-4 bg-light py-3 py-md-5 " id="education"  style="background-image: url('assets/images/edu-bg.jpg');">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 text-center text-md-center py-4" data-aos="flip-up"data-aos-delay="500" data-aos-duration="900">  
-        <h1 class="display-5 fw-bold lh-1 mb-3">EDUCATION</h1>
+        <h1 class="display-5 fw-bold lh-1 mb-3" style="font-size: 55px;">EDUCATION</h1>
         </div>
-      <div class="col-10 col-md-12 col-xl-10 col-xxl-9">
+      <div class="col-10 col-md-11 col-xl-10 col-xxl-9">
         <ul class="timeline">
           <li class="timeline-item left">
             <div class="timeline-body">
@@ -196,6 +198,155 @@
   </div>
 </section>
 <!--/EDUCATION--> 
+
+
+<section id="projects" class="projects-section py-5" style="background-image: url('assets/images/project-bg.png');">
+  <div class="container">
+      <div class="text-center mb-5" data-aos="flip-up"data-aos-delay="500" data-aos-duration="900">
+          <h2 class="display-4 fw-bold" style="font-size: 55px;">Projects</h2>
+          <p class="p-header">Here are some of my latest web development projects.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <!-- Project 1 -->
+          <div class="col" data-aos="zoom-in-left"data-aos-delay="500" data-aos-duration="900">
+              <div class="card project-card h-100 shadow-sm">
+                  <img src="assets/images/dreamers.png" class="card-img-top" alt="Project 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Dreamers' Website</h5>
+                      <p class="card-text">A short description of the project goes here. Mention the technologies and key features.</p>
+                      <a href="https://paopaopawi.github.io/Dreamers/index.html" class="btn btn-primary" target="_blank">View Project</a>
+                      <a href="https://github.com/Paopaopawi/Dreamers" class="btn btn-outline-dark" target="_blank">GitHub Repo</a>
+                  </div>
+              </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col" data-aos="zoom-in-up"data-aos-delay="500" data-aos-duration="900">
+              <div class="card project-card h-100 shadow-sm">
+                  <img src="assets/images/project2.jpg" class="card-img-top" alt="Project 2">
+                  <div class="card-body">
+                      <h5 class="card-title">Project Title 2</h5>
+                      <p class="card-text">A short description of the project goes here. Mention the technologies and key features.</p>
+                      <a href="#" class="btn btn-primary" target="_blank">View Project</a>
+                      <a href="#" class="btn btn-outline-dark" target="_blank">GitHub Repo</a>
+                  </div>
+              </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="col" data-aos="zoom-in-right"data-aos-delay="500" data-aos-duration="900">
+              <div class="card project-card h-100 shadow-sm">
+                  <img src="assets/images/project3.jpg" class="card-img-top" alt="Project 3">
+                  <div class="card-body">
+                      <h5 class="card-title">Project Title 3</h5>
+                      <p class="card-text">A short description of the project goes here. Mention the technologies and key features.</p>
+                      <a href="#" class="btn btn-primary" target="_blank">View Project</a>
+                      <a href="#" class="btn btn-outline-dark" target="_blank">GitHub Repo</a>
+                  </div>
+              </div>
+          </div>
+          <!-- Add more projects here -->
+      </div>
+  </div>
+</section>
+
+
+<!--CONTACTS-->
+<section class="contact-section py-5" id="contact" style="background-image: url('assets/images/contact-bg.png');">
+  <div class="container">
+    <div class="row text-center justify-content-center" data-aos="flip-up"data-aos-delay="500" data-aos-duration="900">
+      <div class="col-lg-6">
+        <h1 class="display-6 fw-bold text-white" style="font-size: 55px;">Get in Touch</h1  >
+        <p class="text-white" style="font-size: 20px;">Feel free to reach out via any of the methods below.</p>
+      </div>
+    </div>
+
+    <div class="row text-center g-4 pt-4">
+      <!-- Email Block -->
+      <div class="col-md-4" data-aos="zoom-in-right"data-aos-delay="500" data-aos-duration="900">
+        <div class="p-4 bento-card h-100 d-flex flex-column align-items-center justify-content-center shadow-sm">
+          <i class="bi bi-envelope-fill mb-3" style="font-size: 60px;"></i>
+          <h5>Email</h5>
+          <p class="text-muted">Paoloalmendra12@gmail.com</p>
+        </div>
+      </div>
+
+      <!-- Phone Block -->
+      <div class="col-md-4" data-aos="zoom-in-down"data-aos-delay="500" data-aos-duration="900">
+        <div class="p-4 bento-card h-100 d-flex flex-column align-items-center justify-content-center shadow-sm">
+          <i class="bi bi-telephone-fill mb-3" style="font-size: 60px;"></i>
+          <h5>Phone</h5>
+          <p class="text-muted">63+ 976 419 1247</p>
+        </div>
+      </div>
+
+      <!-- Location Block -->
+      <div class="col-md-4" data-aos="zoom-in-left"data-aos-delay="500" data-aos-duration="900">
+        <div class="p-4 bento-card h-100 d-flex flex-column align-items-center justify-content-center shadow-sm">
+          <i class="bi bi-geo-alt-fill mb-3" style="font-size: 60px;"></i>
+          <h5>Location</h5>
+          <p class="text-muted">San Pablo City, Laguna, Philippines</p>
+        </div>
+      </div>
+
+      <!-- Facebook Block -->
+      <div class="col-md-4" data-aos="zoom-in-right"data-aos-delay="500" data-aos-duration="900">
+        <div class="p-4 bento-card h-100 d-flex flex-column align-items-center justify-content-center shadow-sm">
+          <i class="bi bi-facebook mb-3" style="font-size: 60px;"></i>
+          <h5>Facebook</h5>
+          <a href="https://www.facebook.com/paolodeleondurbin/" target="_blank" class="text-muted">Paolo De Leon</a>
+        </div>
+      </div>
+
+      <!-- Instagram Block -->
+      <div class="col-md-4" data-aos="zoom-in-up"data-aos-delay="500" data-aos-duration="900">
+        <div class="p-4 bento-card h-100 d-flex flex-column align-items-center justify-content-center shadow-sm">
+          <i class="bi bi-instagram mb-3" style="font-size: 60px;"></i>
+          <h5>Instagram</h5>
+          <a href="https://www.instagram.com/pao.dla/" target="_blank" class="text-muted">pao.dla</a>
+        </div>
+      </div>
+
+      <!-- LinkedIn Block -->
+      <div class="col-md-4" data-aos="zoom-in-right"data-aos-delay="500" data-aos-duration="900">
+        <div class="p-4 bento-card h-100 d-flex flex-column align-items-center justify-content-center shadow-sm">
+          <i class="bi bi-linkedin mb-3 " style="font-size: 60px;"></i>
+          <h5>LinkedIn</h5>
+          <a href="https://www.linkedin.com/in/paolo-almendra-395412331/" target="_blank" class="text-muted">Paolo Almendra</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer py-5" style="background-image: url('assets/images/footer-bg.png');" data-aos="fade-in"data-aos-delay="200" data-aos-duration="900">
+  <div class="container">
+      <div class="row text-center">
+          <div class="col-md-4 mb-4">
+              <h2>About Me</h2>
+              <p>Web developer with a passion for creating beautiful and functional websites.</p>
+          </div>
+          <div class="col-md-4 mb-4">
+              <h2>Contact</h2>
+              <ul class="list-unstyled">
+                  <li>Email: Paoloalmendra12@gmail.com</li>
+                  <li>Phone: 63+ 976 419 1247</li>
+              </ul>
+          </div>
+          <div class="col-md-4 mb-4">
+              <h2>Follow Me</h2>
+              <div class="social-icons">
+                  <a href="https://www.facebook.com/paolodeleondurbin/" class="text-white"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/pao.dla/" class="text-white"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/paolo-almendra-395412331/" class="text-white"><i class="bi bi-linkedin"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="text-center">
+          <p class="text-muted">© 2024 Paolo Almendra. All rights reserved.</p>
+      </div>
+  </div>
+</footer>
+
 </body>
 <!--SCRIPTS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
